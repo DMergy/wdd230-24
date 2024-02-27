@@ -1,0 +1,91 @@
+header {
+  display: flex;
+  background-color: #800080;
+  color: #ffffff;
+  padding: 1.5em;
+  align-items: center;
+  gap: 5rem;
+}
+img {
+  max-width: 200px;
+  height: auto;
+}
+h1 {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  margin: 0.15rem;
+  text-align: center;
+}
+hr.new4 {
+  border: 1px solid #800080;
+}
+
+nav button {
+  margin: 0.2rem 2vw;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #555;
+}
+nav {
+  background-color: black;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul.open {
+  display: block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.8rem 2vw;
+  text-decoration: none;
+  color: #da70d6;
+}
+
+nav ul li.active a {
+  background-color: rgba(300,300,300,0.5);
+  color: white;
+}
+
+nav ul li a:hover {
+  background-color: rgba(200,200,200,0.5);
+  color: #e6e6fa;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: fit-content;
+  padding: 0.2em;
+  margin: 0;
+}
+h2 {
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  text-align: left;
+}
+
+body {
+  background-color: #e6e6fa;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: left;
+}
+footer {
+  background-color: #800080;
+  color: #ffffff;
+  text-align: center;
+}
