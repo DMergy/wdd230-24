@@ -16,20 +16,18 @@
   }
 
   .card {
-    grid-template-columns: 1 / 2;
+    grid-template-columns: 1/2;
     margin-right: 0.5rem;
     border-radius: 25px;
     box-shadow: 0 0 1rem 4px rgba(0 0 0 / 60%);
     overflow: hidden;
   }
-  #card {
-  grid-template-columns: 3 / 5;
-  
-  text-align: center;
-  border-radius: 25px;
-  box-shadow: 0 0 1rem 4px rgba(0 0 0 / 60%);
-  overflow: hidden;
-  }
-  
 
+  #card {
+    grid-template-columns: 3/5;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 0 1rem 4px rgba(0 0 0 / 60%);
+    overflow: hidden;
+  }
 }

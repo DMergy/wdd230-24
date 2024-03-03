@@ -1,0 +1,18 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f7ee;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+header {
+    background-color: #b2abf2;
+    text-align: center;
+}
+
+footer {
+    background-color: #b2abf2;
+    text-align: center;
+}
