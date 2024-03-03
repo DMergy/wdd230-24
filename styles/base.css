@@ -46,6 +46,7 @@ nav ul {
 
 nav ul.open {
   display: block;
+  
 }
 
 nav a {
@@ -53,7 +54,6 @@ nav a {
   color: #da70d6;
   text-align: center;
   padding: 0.8rem 2vw;
-  text-decoration: none;
 }
 
 nav ul li.active a {
@@ -68,8 +68,8 @@ nav ul li a:hover {
 
 main {
   display: grid;
-  grid-template-columns: 4fr 2fr;
-  grid-template-rows: 5fr;
+  grid-template-columns: 4fr;
+  grid-template-rows: 5fr 5fr;
   padding: 0.2em;
   margin: 0;
 }
@@ -81,10 +81,10 @@ h2 {
 
 .card {
   grid-template-columns: 1 / 2;
+  grid-template-rows: 1 / 2;
   margin-right: 0.5rem;
   border-radius: 25px;
   box-shadow: 0 0 1rem 4px rgba(0 0 0 / 60%);
-  overflow: hidden;
 }
 
 .card h2 {
@@ -93,16 +93,16 @@ h2 {
   padding: 1rem;
 }
 
-.card a {
+.card li {
   list-style-type: none;
 }
 
 #card {
-  grid-template-columns: 3 / 5;
+  grid-template-columns: 1 / 2;
+  grid-template-rows: 3 / 5;
   text-align: center;
   border-radius: 25px;
   box-shadow: 0 0 1rem 4px rgba(0 0 0 / 60%);
-  overflow: hidden;
 }
 
 #card h2 {
