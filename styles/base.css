@@ -62,7 +62,7 @@ nav ul li.active a {
 }
 
 nav ul li a:hover {
-  background-color: rgba(200, 200, 200, 0.5);
+  background-color: rgba(400, 400, 400, 0.5);
   color: #e6e6fa;
 }
 
