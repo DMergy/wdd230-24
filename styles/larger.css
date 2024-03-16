@@ -3,6 +3,10 @@
 		display: none; /* hide hamburger button */
 	}
 
+  #mode {
+    right: 20rem;
+  }
+
 	.navigation {
 		flex-direction: row;
 	}
