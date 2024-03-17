@@ -1,7 +1,7 @@
 header {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: fit-content;
+  grid-template-rows: min-content;
   background-color: #585481;
   color: #000000;
 
@@ -115,7 +115,7 @@ h3 {
 main {
   display: grid;
   grid-template-columns: 2fr;
-  grid-template-rows: fit-content;
+  grid-template-rows: min-content;
   padding: 0.2em;
   margin: 0;
 }
