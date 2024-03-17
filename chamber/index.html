@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johnston Chamber of Commerce</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development, Donna Meregillano, Chamber of Commerce">
+    <meta name="author" content="Donna Meregillano">
+    <meta property="og:title" content="WDD230 Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/johnston.jpg">
+    <meta property="og:url" content="https://dmergy.github.io/wdd230-24/chamber">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head> 
+<body>
+    <header>
+    
+        <div class="logo">
+            <img src="images/johnston_logo.png" alt="logo" width="200px">
+        </div>
+    
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <span id='banner'></span>
+        <div class="social">
+    
+            <a href="https://www.https://www.facebook.com/johnstonchamberofcommerce" target="_blank"><img src="images/fb_icon.png"
+                    alt="facebook"></a>
+    
+            <a href="https://www.linkedin.com/company/johnston-chamber-of-commerce/" target="_blank"><img
+                    src="images/in_icon.png" alt="linkedin"></a>
+    
+        </div>
+    
+        <div class="date"></div>
+        <aside></aside>
+    
+    
+    </header>
+    <main>
+    
+        <div class="event">
+    
+            <a href="https://business.johnstonchamber.com/calendar/Details/i-am-uniquely-her-998861?sourceTypeId=Hub"
+                target="_blank"><img src="images/chamber_event.jpg" alt="event"></a>
+            <p>I Am Uniquely Her<br>Harnessing Your Power!<br>April 4, 2023</p>
+        </div>
+        <div class="weather">
+            <p><strong>Weather in Johnston</strong></br>
+                Currently: <span id="current-temp"></span> &deg;F</p>
+            <figure>
+                <img src="" alt="" id="weather-icon" />
+                <figcaption></figcaption>
+            </figure>
+            <p>Wind Speed: <span id="wind-speed"></span> mph</br>
+                WindChill: <span id="wind-chill"></span>&#176;F</p>
+        </div>
+        <div class="join">
+            <a href="join.html"><strong>Join Us!</strong></a>
+            <p>Discover how to join the Johnston Chamber of Commerce and how it will benefit you and your business!</p>
+        </div>
+    
+        <div class="hero">
+            <picture>
+                <img src="images/seaside_hero.jpg" alt="hero" width="476px" height="390px">
+            </picture>
+            <div class="greeting">
+                <h1>Welcome to Johnston</h1>
+            </div>
+            <button class="btn"><a href="join.html">Join the Chamber</a></button>
+    
+        </div>
+        <div class="news">
+            <p><strong>Voted Iowa’s Small Business Person of the Year: Sabetha Mumm</strong><br>
+                Mumm opened Dance Vision in 2003. Over the years, she has expanded workstations for the students to study between dance
+                classes, a healthy food bar to promote wellness, and security cameras in all five studios so parents can watch classes
+                from the lobby area.
+                Dance Vision has grown considerably, going from 290 students to over 400, some of whom drive from over 40 miles away. Mumm currently employs 28 full- and part-time employees, many of whom are former
+                students. Current students range from infants in the Mommy & Me classes to adults, with the greatest number represented
+                by preschool to high school-age students.</p>
+        </div>
+    
+        <div class="spotlight1">
+    
+            <a href="https://stoneycreekhotels.com/" target="_blank"><img src="images/stoneycreeklogo_150-150.png"
+                    alt="hotel"></a>
+            <p>Stoney Creek Hotel<br>
+                5291 Stoney Creek Ct<br>
+                Johnston, Iowa 50131<br>
+                515-334-9000</p>
+        </div>
+        <div class="spotlight2">
+            <a href="https://cajunbelleia.com" target="_blank"><img src="images/cajunbelle.png"
+                    alt="restaurant"></a>
+            <p>Cajun Belle<br>
+                5460 Merle Hay Rd, St A<br>
+                Johnston, Iowa 50131<br>
+                515-897-9244</p>
+        </div>
+        <div class="spotlight3">
+            <a href="https://purplepoppyboutique.com/" target="_blank"><img src="images/ppboutique.png" alt="boutique"></a>
+            <p>Purple Poppy Boutique<br>
+                8709 Overlook Ct<br>
+                Johnston, Iowa 50131<br>
+                515-975-4833</p>
+        </div>
+    
+    </main>
+    
+    <footer>
+        <div class="logof">
+            <img src="images/johnston_logo.png" alt="logo" width="200px">
+        </div>
+    
+        <div class="address">
+            <p><strong>Johnston Chamber of Commerce</strong><br>
+                8108 Birchwood Ct Suite E<br>Johnston, IA 50131</p>
+            <p>info@johnstonchamber.com<br>
+                515.276.9064</p>
+        </div>
+    
+        <div class="statement">
+            <p>&copy; <span id="currentYear"></span> | Johnston Chamber | Donna Meregillano | WDD 230 Project | Last
+                Modification: <span id="lastMod"></span></p>
+            <p>Thank you to OpenWeatherMap for current weather trends.</p>
+        </div>
+        <div class="location">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2771.894315015632!2d-123.9221158844455!3d45.99333937911076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5494a1bfa9cbf3b1%3A0x26a4de6d8a843291!2s7%20N%20Roosevelt%20Dr%2C%20Seaside%2C%20OR%2097138!5e0!3m2!1sen!2sus!4v1680500216202!5m2!1sen!2sus"
+                width="180" height="135" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe></a>
+        </div>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/weatherapi.js"></script>
+</body>
+</html>
