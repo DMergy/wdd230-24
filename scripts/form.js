@@ -19,3 +19,15 @@ rangeInput.addEventListener("change", () => {
     document.getElementById("rateValue").innerText = rangeInput.value;
 })
 
+function activeButton() {
+    if (inputPassword.value &&
+        inputPasswordConfirm.value &&
+        usernameInput.value &&
+        emailInput.value) {
+        submitButton.removeAttribute("disabled");
+    }
+    else {
+        submitButton.setAttribute("disabled");
+    }
+}
+
