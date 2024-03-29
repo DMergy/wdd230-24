@@ -34,12 +34,12 @@ hr {
 }
 
 #mode {
-	position: absolute;
-	top: 1rem;
-	right: 1rem;
-	font-size: 3rem;
-	cursor: pointer;
-	font-size: 2rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 3rem;
+  cursor: pointer;
+  font-size: 2rem;
 }
 /*
 .dark-mode {
@@ -184,4 +184,12 @@ footer {
   background-color: #800080;
   color: #ffffff;
   text-align: center;
+}
+
+.hero picture {
+  width: 100%;
+}
+.hero img {
+  width: 100%;
+  height: auto;
 }
