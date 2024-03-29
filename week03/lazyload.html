@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Donna Meregillano - WDD 230 - Lazy Loading</title>
+<meta name="description" content="WDD 230 - Web Frontend Development, Donna Meregillano, Lazy Loading">
+<meta name="author" content="Donna Meregillano">
+<meta property="og:title" content="WDD230 Lazy Loading">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/landscape.webp">
+<meta property="og:url" content="https://dmergy.github.io/wdd230-24/">
+<link rel="icon" href="images/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/normalize.css">
+<link rel="stylesheet" href="styles/base.css">
+<link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Lazy Loading Assignment</h1>
+    </header>
+    <main>
+        <picture>
+            <img src="images/placeholder.jpg" data-src="images/lashes.jpg" alt="lashes" loading="lazy">
+        </picture>
+        <picture>
+            <img src="images/placeholder.jpg" data-src="images/lips.jpg" alt="lips" loading="lazy" width="400" height="600">
+        </picture>
+        <picture>
+            <img src="images/placeholder.jpg" data-src="images/opp.jpg" alt="opp" loading="lazy" width="400" height="600">
+        </picture>
+        <picture>
+            <img src="images/placeholder.jpg" data-src="images/shades.jpg" alt="shades" loading="lazy" width="400" height="600">
+        </picture>
+        <picture>
+            <img src="images/placeholder.jpg" data-src="images/stick.jpg" alt="stick" loading="lazy" width="400" height="600">
+        </picture>
+        <picture>
+            <img src="images/placeholder.jpg" data-src="images/tan.jpg" alt="tan" loading="lazy" width="400" height="600">
+        </picture>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> * Donna Meregillano * USA</p>
+        <p>Last Updated: <span id="lastMod"></span></p>
+    </footer>
+    <script src="scripts/lazy.js"></script>
+    
+</body>
+</html>
