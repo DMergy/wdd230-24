@@ -1,16 +1,16 @@
 {
   "johnston": [
     {
-      "logo": "images/lanai.png",
+      "logo": "images/stephens-logo.png",
       "company": "Stephens Automotive Service",
       "address": "5320 NW Beaver Dr",
       "phone": "515-278-9991",
-      "web": "https://stephensautosales.com",
+      "web": "https://stephensautomotivesales.com",
       "curl": "www.stephensautomotivesales.com",
       "join": "gold"
     },
     {
-      "logo": "images/wheelfunlogo.png",
+      "logo": "images/rocket-logo.png",
       "company": "Rocket Carwash",
       "address": "6035 Merle Hay Rd",
       "phone": "833-712-1747",
@@ -19,7 +19,7 @@
       "join": "gold"
     },
     {
-      "logo": "images/carouselmalllogo.png",
+      "logo": "images/stoneycreekhotels-logo.png",
       "company": "Stoney Creek Hotel", 
       "address": "5291 Stoney Creek Ct",
       "phone": "503-334-9000",
@@ -28,7 +28,7 @@
       "join": "gold"
     },
     {
-      "logo": "images/bythesea.png",
+      "logo": "images/anytime-fitness-logo.png",
       "company": "Anytime Fitness",
       "address": "8805 Chambery Blvd, Suite 800",
       "phone": "515-334-3488",
@@ -37,7 +37,7 @@
       "join": "silver"
     },
     {
-      "logo": "images/evokewinery.png",
+      "logo": "images/texas-logo.png",
       "company": "Texas Roadhouse",
       "address": "8744 Northpark Dr",
       "phone": "515-251-4597",
@@ -46,7 +46,7 @@
       "join": "silver"
     },
     {
-      "logo": "images/khanprop.png",
+      "logo": "images/trop-logo.jpg",
       "company": "Tropical Smoothie Cafe",
       "address": "5300 NW 86th St, Suite 300",
       "phone": "503-410-1312",
@@ -55,7 +55,7 @@
       "join": "silver"
     },
     {
-      "logo": "images/upalogo.png",
+      "logo": "images/cajunbelle-logo.webp",
       "company": "Cajun Belle",
       "address": "5460 Merle Hay Rd, Suite A",
       "phone": "515-897-9244",
