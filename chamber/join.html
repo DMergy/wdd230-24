@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johnston Chamber of Commerce</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development, Donna Meregillano, Chamber of Commerce">
+    <meta name="author" content="Donna Meregillano">
+    <meta property="og:title" content="WDD230 Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/johnston.jpg">
+    <meta property="og:url" content="https://dmergy.github.io/wdd230-24/chamber">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="logo">
+            <img src="images/johnston_logo.png" alt="logo" width="200px">
+        </div>
+
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li class="active"><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <span id='banner'></span>
+        <div class="social">
+
+            <a href="https://www.https://www.facebook.com/johnstonchamberofcommerce" target="_blank"><img
+                    src="images/fb_icon.png" alt="facebook"></a>
+
+            <a href="https://www.linkedin.com/company/johnston-chamber-of-commerce/" target="_blank"><img
+                    src="images/in_icon.png" alt="linkedin"></a>
+
+        </div>
+
+        <div class="date"></div>
+        <aside></aside>
+
+
+    </header>
+    <main id="joinss">
+    
+        <h1>Member Application</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+    
+                <legend>Applicant Information</legend>
+    
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Phone <input type="tel" name="phone" placeholder="123456789"></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+    
+            </fieldset>
+    
+            <fieldset>
+                <legend>Business Information</legend>
+    
+                <label class="top">Business Name* <input type="text" name="bname" required></label>
+                <label class="top">Business Description <textarea name="bdesc" rows="4" cols="30"></textarea></label>
+                <label class="top">Business Title <input type="text" name="btitle" pattern="^([A-Za-z\s\-]){7,}"></label>
+    
+            </fieldset>
+    
+            <fieldset>
+                <legend>Membership Levels</legend>
+    
+                <label class="sbs"><input type="radio" name="memlevel" value="yes"> Non-Profit (No Cost)</label>
+                <label class="sbs"><input type="radio" name="memlevel" value="yes"> Bronze ($250)</label>
+                <label class="sbs"><input type="radio" name="memlevel" value="yes"> Silver ($450)</label>
+                <label class="sbs"><input type="radio" name="memlevel" value="yes"> Gold ($850)</label>
+    
+    
+            </fieldset>
+    
+            <input type="hidden" id="date" name="date">
+            <input type="submit" value="Join Today" class="submitBtn">
+    
+        </form>
+    
+        <table class="center">
+            <caption>Table 1: Membership Level Comparison</caption>
+            <thead>
+                <tr>
+                    <th colspan="5">Membership Benefits</th>
+                </tr>
+            </thead>
+    
+            <tbody>
+                <tr>
+                    <th style="background-color: #784315;">&nbsp;</th>
+                    <th style="background-color: #2ec4b6;">NP</th>
+                    <th style="background-color: #2ec4b6;">Bronze</th>
+                    <th style="background-color: #2ec4b6;">Silver</th>
+                    <th style="background-color: #2ec4b6;">Gold</th>
+                </tr>
+    
+                <tr>
+                    <td>Newsletter</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>New Member Spotlight</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Complimentary Event Tickets</td>
+                    <td>❌</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Website Banner Ad</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Spotlight Recognition</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>✔️</td>
+                </tr>
+            </tbody>
+    
+        </table>
+    
+    </main>
+    <footer>
+        <div class="logof">
+            <img src="images/johnston_logo.png" alt="logo" width="200px">
+        </div>
+
+        <div class="address">
+            <p><strong>Johnston Chamber of Commerce</strong><br>
+                8108 Birchwood Ct Suite E<br>Johnston, IA 50131</p>
+            <p>info@johnstonchamber.com<br>
+                515.276.9064</p>
+        </div>
+
+        <div class="statement">
+            <p>&copy; <span id="currentYear"></span> | Johnston Chamber | Donna Meregillano | WDD 230 Project | Last
+                Modification: <span id="lastMod"></span></p>
+            <p>Thank you to OpenWeatherMap for current weather trends.</p>
+        </div>
+        <div class="location">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2771.894315015632!2d-123.9221158844455!3d45.99333937911076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5494a1bfa9cbf3b1%3A0x26a4de6d8a843291!2s7%20N%20Roosevelt%20Dr%2C%20Seaside%2C%20OR%2097138!5e0!3m2!1sen!2sus!4v1680500216202!5m2!1sen!2sus"
+                width="180" height="135" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/weatherapi.js"></script>
+</body>
+
+</html>

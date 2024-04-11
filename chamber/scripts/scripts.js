@@ -52,3 +52,61 @@ if (dayofweek == weekday[1] || dayofweek == weekday [2]) {
 else {
     banner.style.display = 'none';
 }
+
+// Discover Page Lazy Loading /
+
+var imagesToLoad = document.querySelectorAll('img[data-src]');
+var loadImages = function(image) {
+	image.setAttribute('src', image.getAttribute('data-src'));
+	image.onload = function() {
+		image.removeAttribute('data-src');
+	};
+};
+if('IntersectionObserver' in window) {
+	var observer = new IntersectionObserver(function(items, observer) {
+		items.forEach(function(item) {
+			if(item.isIntersecting) {
+				loadImages(item.target);
+				observer.unobserve(item.target);
+			}
+		});
+	});
+	imagesToLoad.forEach(function(img) {
+		observer.observe(img);
+	});
+}
+else {
+	imagesToLoad.forEach(function(img) {
+		loadImages(img);
+	});
+}
+
+// Days since last visit /
+let sinceLastString = "";
+
+function getDaysSince() {
+	if (!localStorage.getItem("lastVisit")) {
+		localStorage.setItem("lastVisit", new Date ().getTime());
+		sinceLastString = ("Welcome! Let us know if you have any questions.");
+		return sinceLastString;
+	
+	}
+	else {
+		var currentDate = new Date();
+		var lastVisit = new Date(parseInt(localStorage.getItem("lastVisit")));
+		var calcTime = currentDate - lastVisit;
+		var daysSinceLast = Math.ceil(calcTime / 86400000);
+		localStorage.setItem("lastVisit", new Date().getTime());
+
+		sinceLastString = ("You visited " + daysSinceLast + " day(s) ago.");
+		return sinceLastString;
+	}
+};
+document.querySelector("#dayssince").innerHTML = getDaysSince();
+
+// Join Page - Hidden Date //
+
+var currentDate = new Date();
+var formattedDate = currentDate.toLocaleString();
+
+document.querySelector("#date").value = formattedDate;

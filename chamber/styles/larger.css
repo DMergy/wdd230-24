@@ -165,3 +165,59 @@
         padding-top: 0.25em;
     }
 }
+
+/*-------------Discover Medium-----------*/
+
+main#discoverss {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: auto;
+    font-size: 20px;
+}
+
+h1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+
+h3 {
+    padding-top: 2em;  
+}
+
+.city {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    text-align: left;
+}
+
+.visual {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.visual img:hover {
+    box-shadow: 0 0 10px white;
+    opacity: .6;
+}
+
+
+/* ----------------- Discover Large------------------ */
+
+main#discoverss {
+    font-size: 22px;
+}
+
+.city {
+    grid-column: 2 / 3;
+    text-align: left;
+}
+
+.visual {
+    grid-column: 1 / 2;
+}
+
+/* ----------------- Join ---------------------- */
+
+    form label.sbs {
+        padding: .4rem 0;
+    }

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johnston Chamber of Commerce</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development, Donna Meregillano, Chamber of Commerce">
+    <meta name="author" content="Donna Meregillano">
+    <meta property="og:title" content="WDD230 Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/johnston.jpg">
+    <meta property="og:url" content="https://dmergy.github.io/wdd230-24/chamber">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="logo">
+            <img src="images/johnston_logo.png" alt="logo" width="200px">
+        </div>
+
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <span id='banner'></span>
+        <div class="social">
+
+            <a href="https://www.https://www.facebook.com/johnstonchamberofcommerce" target="_blank"><img
+                    src="images/fb_icon.png" alt="facebook"></a>
+
+            <a href="https://www.linkedin.com/company/johnston-chamber-of-commerce/" target="_blank"><img
+                    src="images/in_icon.png" alt="linkedin"></a>
+
+        </div>
+
+        <div class="date"></div>
+        <aside></aside>
+    </header>
+
+    <main>
+    <main id="discoverss">
+        <h1>Discover Johnston!</h1>
+        <div class="city">
+            <p><strong>A few interesting stats about Johnston:</strong></p>
+            <ul>
+                <li>Population (2021): 23,400</li>
+                <li>23rd Largest City in Iowa</li>
+                <li>Median Age: 37.7</li>
+                <li>Median Household Income: $93,363</li>
+                <li>Median Property Value: $289,600</li>
+                <li>Growth Rate of 6.07% Annually</li>
+                <li>Average Work Commute of 192 minutes</li>
+            </ul>
+    
+            <br><br>
+            <p>The west area was first settled in 1846 (the same year Iowa became a state). Over the years the area was known by many names such as Beaver Creek Settlement, Ridgedale and Huntsville. The community
+            eventually adopted the name of Johnston Station named after John F. Johnston who was one of the station agents for the
+            Interurban Railroad. Incorporation did not come until the fall of 1969 when area residents worked together to incorporate the City of
+            Johnston.</p>
+    
+            <br>
+            <p>The Johnston School System was originally started by closing four one­ room schools: they were Valley, Friar, Ridgedale
+            and Rider schools. In 1914, the second consolidated school district in Polk County was formed including these four
+            districts and was called The Independent Consolidated School District of Webster and Jefferson Townships of Polk County,
+            Iowa.</p>
+    
+            <br>
+            <p>The Sac and Fox Indians (also known as the Sauk and Meskwaki) came to Iowa from Wisconsin in the early 1800's. They
+            displaced the Ioways, who left for Kansas. The Sac and Fox made their home along the Des Moines River basin. Following a treaty with the U. S.
+            Government, the tribes ceded their land for a sum of $800,000. Chief Keokuk led his people out of Iowa in May, 1845,
+            opening the way for settlers to move into the area.</p>
+    
+            <br>
+            <p>Hy-Vee holds a strong presence in Johnston. The store was purchased July 1, 1959 from Jim Elwell.  It has relocated twice over the years, now doing business at 5750 Merle Hay Road. They remodeled the store October 4, 2000. The project began in August 1999, increasing size to 50,572 square feet.
+            </p>
+    
+        </div>
+    
+        <div class="visual">
+            <picture>
+                <img src="images/placeholder.jpg" data-src="images/johnston_city.jpg" alt="city" loading="lazy">
+                <caption>Johnston Water Tower</caption>
+            </picture>
+            <picture>
+                <img src="images/placeholder.jpg" data-src="images/johnston_school.jpg" alt="school" loading="lazy">
+                <caption>Johnston School Mural</caption>
+            </picture>
+            <picture>
+                <img src="images/placeholder.jpg" data-src="images/johnston_indians.jpg" alt="history" loading="lazy">
+                <caption>Johnston History Mural</caption>
+            </picture>
+            <picture>
+                <img src="images/placeholder.jpg" data-src="images/johnston_hyvee.jpg" alt="hyvee" loading="lazy">
+                <caption>Johnston Hy-Vee Store</caption>
+            </picture>
+            <picture>
+                <img src="images/placeholder.jpg" data-src="images/beach.jpg" alt="beach" loading="lazy">
+                <caption>Seaside Beach</caption>
+            </picture>
+    
+        </div>
+    
+        <div class="tracker">
+            <span id="dayssince"></span>
+        </div>
+    </main>
+
+    <footer>
+        <div class="logof">
+            <img src="images/johnston_logo.png" alt="logo" width="200px">
+        </div>
+    
+        <div class="address">
+            <p><strong>Johnston Chamber of Commerce</strong><br>
+                8108 Birchwood Ct Suite E<br>Johnston, IA 50131</p>
+            <p>info@johnstonchamber.com<br>
+                515.276.9064</p>
+        </div>
+    
+        <div class="statement">
+            <p>&copy; <span id="currentYear"></span> | Johnston Chamber | Donna Meregillano | WDD 230 Project | Last
+                Modification: <span id="lastMod"></span></p>
+            <p>Thank you to OpenWeatherMap for current weather trends.</p>
+        </div>
+        <div class="location">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2771.894315015632!2d-123.9221158844455!3d45.99333937911076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5494a1bfa9cbf3b1%3A0x26a4de6d8a843291!2s7%20N%20Roosevelt%20Dr%2C%20Seaside%2C%20OR%2097138!5e0!3m2!1sen!2sus!4v1680500216202!5m2!1sen!2sus"
+                width="180" height="135" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/weatherapi.js"></script>
+</body>
+</html>
