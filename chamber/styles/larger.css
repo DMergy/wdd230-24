@@ -94,9 +94,9 @@
 
   .greeting {
     position: absolute;
-    top: 20px;
+    top: -12px;
     left: 10px;
-    color: #0b7a75;
+    color: black;
     font: bold;
   }
 
