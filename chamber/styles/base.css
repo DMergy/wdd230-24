@@ -322,7 +322,7 @@ form fieldset {
 }
 
 form legend {
-  color: #784315;
+  color: #585481;
   margin: 0 1rem;
   padding: 0.5rem;
   font-size: 20px;
@@ -332,7 +332,7 @@ form label.top,
 form div {
   display: block;
   padding-top: 1rem;
-  color: #784315;
+  color: #585481;
   font-size: 1rem;
   text-align: left;
 }
@@ -354,7 +354,7 @@ form label.top select {
 form label.sbs {
   display: block;
   padding: 0.75rem 0;
-  color: #784315;
+  color: #585481;
   text-align: left;
   font-size: 18px;
 }
@@ -371,11 +371,11 @@ form input.submitBtn {
 }
 
 form label.top input:required {
-  border-left: #fb8f67 solid 8px;
+  border-left: #0b7a75 solid 8px;
 }
 
 form label.top input:required:valid {
-  border-left: #784315 solid 8px;
+  border-left: #585481 solid 8px;
 }
 
 /* ------------- Join Table ----------- */
@@ -397,7 +397,7 @@ table,
 th,
 td {
   border-collapse: collapse;
-  border: 2px solid #784315;
+  border: 2px solid #585481;
   border-spacing: 10px;
   letter-spacing: 1px;
   font-size: 20px;
@@ -405,7 +405,7 @@ td {
 }
 
 thead {
-  background-color: #784315;
+  background-color: #585481;
 }
 
 th {
@@ -421,11 +421,11 @@ td {
 }
 
 tr:nth-child(even) td {
-  background-color: #fb8f67;
+  background-color: #32CD32;
 }
 
 tr:nth-child(odd) td {
-  background-color: #fbb167;
+  background-color: #6b9090;
 }
 
 caption {
